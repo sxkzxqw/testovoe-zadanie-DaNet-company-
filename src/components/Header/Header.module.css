@@ -1,0 +1,92 @@
+.header {
+    padding: 25px 64px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lupa {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.balancegb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+
+.gb_wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 12px 10px 16px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.balancewrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 10px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.bal {
+    margin-right: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.gb {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.balance {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.used {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.plus {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.border {
+    border: 0.5px solid #EBEBEB;
+    height: 20px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 32.5px;
+    height: 32.5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+}

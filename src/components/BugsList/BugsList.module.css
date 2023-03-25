@@ -1,0 +1,27 @@
+.bugsList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.bugs {
+    margin-bottom: 60px;
+}
+
+.selectsList {
+    display: grid;
+    grid-template-columns: 77px 152px 304px 227px 184px 152px 130px 93px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.selectwrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 11px;
+    cursor: pointer;
+}
