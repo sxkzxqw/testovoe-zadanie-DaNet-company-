@@ -44,8 +44,8 @@ const BugsList = () => {
                 </div>
             </div>
             <ul className={styles.bugsList}>
-                {bugs.map((bug) => {
-                   return <BugListTemplate bug={bug} />;
+                {bugs.map((bug, index) => {
+                   return <BugListTemplate bug={bug} key={index} />;
                 })}
             </ul>
         </section>

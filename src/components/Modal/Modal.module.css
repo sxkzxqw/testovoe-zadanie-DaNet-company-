@@ -135,6 +135,9 @@
     border-radius: 16px;
     position: relative;
     transition: all .2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inputSectionButton:hover {
@@ -181,4 +184,80 @@
     letter-spacing: 0.03em;
     color: #676767;
     margin-bottom: 36px;
+}
+
+.images {
+    max-width: 920px;
+}
+
+.imagesList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background: #F6F6F6;
+    border-radius: 4.5px;
+    width: 300px;
+    height: 30px;
+}
+
+.imageTitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #676767;
+}
+
+.imageSize {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #ACADB5;
+}
+
+.Status__Ladno_A_Zachem {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #232323;
+    border: 1px solid #FFD600;
+    border-radius: 10px;
+    width: 116px;
+    height: 44px;
+    background: inherit;
+    cursor: pointer;
+}
+
+.Musorka_SamTiMusorkaBratok {
+    background: inherit;
+    width: 58px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+
+.Musorka_SamTiMusorkaBratok:hover {
+    background: #EBEBEB;
+}
+
+.modalFooter {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
 }

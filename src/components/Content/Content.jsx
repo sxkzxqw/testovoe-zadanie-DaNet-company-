@@ -4,6 +4,7 @@ import tarakan from '../../images/tarakaneblan.svg';
 import logout from '../../images/log-out.svg';
 import BugsList from '../BugsList/BugsList';
 import Modal from '../Modal/Modal';
+import closeIcon from '../../images/close.svg';
 
 const Content = () => {
     const id = '8fs8dfsf6776afefeafe776fe'
@@ -20,6 +21,23 @@ const Content = () => {
     const idForRender = `${idForRenderFirstLetters.join('') + '....' + idForRenderLastLetters.join('').toUpperCase()}`
 
     const [activeButton, setActiveButton] = useState('bugs')
+    const [modal, setModal] = useState(null);
+    const [hint, setHint] = useState(null);
+    function handleCloseHint() {
+        setHint(null)
+    }
+    
+    function setHintState(state) {
+        setHint(state)
+    }
+
+    function handleCloseModal() {
+        setModal(null);
+    }
+
+    function setModalState(state) {
+        setModal(state)
+    }
 
     return (
         <main className={styles.content}>
@@ -33,17 +51,33 @@ const Content = () => {
                     <h1 className={styles.title}>bug tracker</h1>
                 </div>
                 <div className={styles.infobuttons}>
-                    <button className={styles.infobutton} style={{width: 43, height: 39}}>?</button>
+                    <div className={styles.divForHint}>
+                        <button className={styles.infobutton} style={{width: 43, height: 39}} onClick={setHintState}>?</button>
+                        {!!hint && 
+                        <div className={styles.hint}>
+                            <div className={styles.hintTitleWrapper}>
+                                <p className={styles.hintTitle}>Reward details</p>
+                                <img src={closeIcon} className={styles.hintClose} onClick={handleCloseHint} />
+                            </div>
+                            <div className={styles.hintTextWrapper}>
+                                <p className={styles.hintText}>You can report a bug or send a suggestion to DeNet Developers Team. On the team consideration DeNet can reward you, if the bug or a suggestion will be the first in it's kind.</p>
+                                <p className={styles.hintText}>The reward is represented in decentralized storage capacity up to 10 GB. Using it you can stake your NFTs and store any other files in DeNet Ecosystem for free.</p>
+                            </div>
+                        </div>
+                        }
+                    </div>
                     <button className={styles.infobutton} style={{width: 156, height: 39}}>{idForRender}</button>
                     <button className={styles.infobutton} style={{width: 43, height: 39}}><img src={logout} /></button>
                 </div>
             </section>
             <section className={styles.bugList}>
                 <p className={styles.bugListText}>bug list</p>
-                <button type='button' className={styles.bugButton}>+ new bug</button>
+                <button type='button' className={styles.bugButton} onClick={setModalState}>+ new bug</button>
             </section>
             <BugsList />
-            <Modal />
+            {!!modal &&
+            <Modal handleClose={handleCloseModal} />
+            }
         </main>
     );
 };
