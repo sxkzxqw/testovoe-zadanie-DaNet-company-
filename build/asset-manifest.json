@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3607c5cf.css",
+    "main.js": "/static/js/main.d5ce584f.js",
+    "static/media/tarakaneblan.svg": "/static/media/tarakaneblan.a24cdfb170f43e3d75896e1976d72d61.svg",
+    "static/media/LOGO.svg": "/static/media/LOGO.de4c98a867d9bcab9ccc29865e112b83.svg",
+    "static/media/lupazalupa.svg": "/static/media/lupazalupa.daf025f01417f73af9ae46b5acfacbe9.svg",
+    "static/media/MaiklKuzyaIKolyan.svg": "/static/media/MaiklKuzyaIKolyan.8cbc7a263c08904c8643b51ce195a3bd.svg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.15158f26496ebe975330868dee2d7705.svg",
+    "static/media/musorok.svg": "/static/media/musorok.235d3783dec2e0683746dc9e15b539f8.svg",
+    "static/media/log-out.svg": "/static/media/log-out.b1383ddc5e308105e1f5d95bc17a87a1.svg",
+    "static/media/decrement(Stroke).svg": "/static/media/decrement(Stroke).fb88114ce6ff0ccd038011b53b559476.svg",
+    "static/media/plus.svg": "/static/media/plus.ec2858a514b744ccb971f5accb9f99e3.svg",
+    "main.3607c5cf.css.map": "/static/css/main.3607c5cf.css.map",
+    "main.d5ce584f.js.map": "/static/js/main.d5ce584f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3607c5cf.css",
+    "static/js/main.d5ce584f.js"
+  ]
+}
