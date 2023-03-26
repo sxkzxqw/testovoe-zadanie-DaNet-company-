@@ -11,7 +11,7 @@ export const template = [
     },
     {
         id: 567,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da64234sf7sfs',
         bug: 'App not loading',
         app: 'DeNet Pass',
         status: 'On review',
@@ -21,7 +21,7 @@ export const template = [
     },
     {
         id: 56,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da6876sf7sfs',
         bug: 'Not claimed',
         app: 'DeNet Storage',
         status: 'In progress',
@@ -31,7 +31,7 @@ export const template = [
     },
     {
         id: 56,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da6gtesf7sfs',
         bug: 'Not claimed',
         app: 'DeNet Storage',
         status: 'In progress',
@@ -41,7 +41,7 @@ export const template = [
     },
     {
         id: 56,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da6dawesf7sfs',
         bug: 'Not claimed',
         app: 'DeNet Storage',
         status: 'In progress',
@@ -51,7 +51,7 @@ export const template = [
     },
     {
         id: 56,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8daretyuesf7sfs',
         bug: 'Not claimed',
         app: 'DeNet Storage',
         status: 'In progress',
@@ -61,7 +61,7 @@ export const template = [
     },
     {
         id: 45,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8daoyif7sfs',
         bug: 'No award recieved and',
         app: 'DeNet Payments',
         status: 'Rejected',
@@ -71,7 +71,7 @@ export const template = [
     },
     {
         id: 45,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da362358f7sfs',
         bug: 'No award recieved and',
         app: 'DeNet Payments',
         status: 'Rejected',
@@ -81,7 +81,7 @@ export const template = [
     },
     {
         id: 45,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8fethr7sfs',
         bug: 'No award recieved and',
         app: 'DeNet Payments',
         status: 'Rejected',
@@ -91,7 +91,7 @@ export const template = [
     },
     {
         id: 45,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8dgehrtrjysfs',
         bug: 'No award recieved and',
         app: 'DeNet Payments',
         status: 'Rejected',
@@ -101,7 +101,7 @@ export const template = [
     },
     {
         id: 45,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da6gergergf7sfs',
         bug: 'No award recieved and',
         app: 'DeNet Payments',
         status: 'Rejected',
@@ -111,7 +111,7 @@ export const template = [
     },
     {
         id: 234,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8da6gergeraw7sfs',
         bug: 'App not loading',
         app: 'DeNet Payments',
         status: 'Solved',
@@ -121,7 +121,7 @@ export const template = [
     },
     {
         id: 234,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8524ghdetsf7sfs',
         bug: 'App not loading',
         app: 'DeNet Payments',
         status: 'Solved',
@@ -131,7 +131,7 @@ export const template = [
     },
     {
         id: 234,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8d3656543htfsf7sfs',
         bug: 'App not loading',
         app: 'DeNet Payments',
         status: 'Solved',
@@ -141,7 +141,7 @@ export const template = [
     },
     {
         id: 234,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw87gsfgssfs',
         bug: 'App not loading',
         app: 'DeNet Payments',
         status: 'Solved',
@@ -151,7 +151,7 @@ export const template = [
     },
     {
         id: 234,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8afesgff7sfs',
         bug: 'App not loading',
         app: 'DeNet Payments',
         status: 'Solved',
@@ -161,7 +161,7 @@ export const template = [
     },
     {
         id: 234,
-        adress: 'daw8da6fr7esf7sfs',
+        adress: 'daw8d564379fvdsf7sfs',
         bug: 'App not loading',
         app: 'DeNet Payments',
         status: 'Solved',

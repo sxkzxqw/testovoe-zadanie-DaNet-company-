@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import BugListTemplate from '../BugListTemplate/BugListTemplate';
 import { template } from '../bugsTemplate/bugsTemplate';
 import styles from './BugsList.module.css';
 import strelka from '../../images/decrement(Stroke).svg';
+import { Reorder } from "framer-motion";
 
 const BugsList = () => {
-    const bugs = template;
-    
+    const bugsApi = template;
+    const [bugs, setBugs] = useState(bugsApi);
+
     return (
         <section className={styles.bugs}>
             <div className={styles.selectsList}>
@@ -43,11 +45,13 @@ const BugsList = () => {
                     <img src={strelka} />
                 </div>
             </div>
-            <ul className={styles.bugsList}>
+            <Reorder.Group axis='y' values={bugs} onReorder={setBugs} className={styles.bugsList}>
                 {bugs.map((bug, index) => {
-                   return <BugListTemplate bug={bug} key={index} />;
-                })}
-            </ul>
+                return (
+                    <BugListTemplate bug={bug} key={bug.adress} />
+                   )
+                })} 
+            </Reorder.Group>
         </section>
     );
 };

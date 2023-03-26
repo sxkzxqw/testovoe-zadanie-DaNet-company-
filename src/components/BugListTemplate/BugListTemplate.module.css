@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: 77px 152px 304px 227px 184px 152px 130px 93px;
     border-bottom: 1px solid #EBEBEB;
-    height: 60px;
+    height: 59px;
     align-content: center;
+    cursor: grab;
 }
 
 .id {

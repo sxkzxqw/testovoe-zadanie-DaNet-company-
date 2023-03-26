@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './BugListTemplate.module.css';
+import { Reorder } from 'framer-motion';
 
 const BugListTemplate = ({ bug }) => {
     const id = bug.adress;
@@ -59,7 +60,7 @@ const BugListTemplate = ({ bug }) => {
     }
 
     return (
-        <li className={styles.bugLi}>
+        <Reorder.Item value={bug} className={styles.bugLi} id={bug}>
             <p className={styles.id}>{`#${bug.id}`}</p>
             <p className={styles.adress}>{idForRender}</p>
             <p className={styles.bug}>{bug.bug}</p>
@@ -68,7 +69,7 @@ const BugListTemplate = ({ bug }) => {
             <p className={styles.data}>{bug.created}</p>
             {circleColor(bug.severity)}
             <p className={styles.priority}>{bug.priority}</p>
-        </li>
+        </Reorder.Item>
     );
 };
 
